@@ -14,38 +14,48 @@
   p {
     color:black;
     font-size:15px;
+    text-align: center;
   }
-  
-  #courselink {
-  	color:green;
-  	font-style: italic;
-  	font-size:15px;
-  }
+ 
+
 div li{
 list-style:none;
+
 }
-  a:link {
+ 
+  a:link , a:visited {
     text-decoration:none;
-    background-color:grey;
-    color: #000000;
+    background-color:rgb(10,100,1000);
+    color:black;
     display: block;
-    width:500px;
-    text-align:center;
-   
-  }
-  a:visited {
-    text-decoration:none;
-    background-color:blue;
-    color: #000000;
-    display: block;
-    width:200px;
+    width:600px;
     text-align:center;
  }
+
+ div li:nth-child(odd){
+ 	font-size:20px; 
+    margin-bottom: 1px;
+    margin-left:1px;
+    margin-right:1px;
+    margin-top:1px;
+    border-style: solid;
+    width:600px;
+ }
+ div li:nth-child(2){
+ 	font-size:20px; 
+    margin-bottom: 1px;
+    margin-left:1px;
+    margin-right:1px;
+    margin-top:1px;
+    border-style: dotted;
+    width:600px;
+ }
+
   a:hover{
     background-color:#FF0000;
   }
   a:active{
-  	background-color:rgba(0,15,10,15);
+  	background-color:rgba(0,0,0,15);
 }
 
 </style>
@@ -53,11 +63,11 @@ list-style:none;
 <body>
 <h1>LET'S START MAKING WEBSITES ! Are you exited ? </h1> 
 <p>I will give you reference of coursera course from where I learnt web devlopment </p>
- 	<a href="https://www.coursera.org/learn/html-css-javascript-for-web-developers/home/welcome" target ="_blank" title="course link">
- 	<div id="courselink" > YOUR JOURNEY TO LEARN WEB DEV JUST NEEDS A CLICK </div>	
-     </a> 
+ 	
 <div>
  	<ul>
+ 		<li><a href="https://www.coursera.org/learn/html-css-javascript-for-web-developers/home/welcome" target ="_blank" title="course link">
+ 	    YOUR JOURNEY TO LEARN WEB DEV JUST NEEDS A CLICK </a></li>
  		<li><a href= " https://www.instagram.com/pagalpanti.ft.engineers/" target="_blank" class="socialmedia" > VISIT OUR INSTAGRAM PAGE </a></li>
  	    <li><a href="https://www.facebook.com/pagalpanti.ft.engineers/" target="=_blank" class="socialmedia">VISIT OUR FACEBOOK PAGE </a></li>
  	</ul>
