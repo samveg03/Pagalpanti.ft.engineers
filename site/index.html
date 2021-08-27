@@ -5,6 +5,17 @@
 <meta charset="utf-8">
 <title>HELLO ENGINEERS</title>
 <style>
+
+ *{
+  box-sizing: border-box;
+ } 
+
+body{
+  background-color: grey;
+  font-family: "Times new roman",Times,san-serif;
+  text-transform: capitalize;
+  text-decoration-color: transparent;
+} 
   h1 {
   	color:#009900;
   	font-size:20px;
@@ -28,8 +39,9 @@ list-style:none;
     background-color:rgb(10,100,1000);
     color:black;
     display: block;
-    width:600px;
+    width:500px;
     text-align:center;
+    
  }
 
  div li:nth-child(odd){
@@ -39,7 +51,7 @@ list-style:none;
     margin-right:1px;
     margin-top:1px;
     border-style: solid;
-    width:600px;
+    width:506px;
  }
  div li:nth-child(2){
  	font-size:20px; 
@@ -48,7 +60,7 @@ list-style:none;
     margin-right:1px;
     margin-top:1px;
     border-style: dotted;
-    width:600px;
+    width:506px;
  }
 
   a:hover{
@@ -58,7 +70,105 @@ list-style:none;
   	background-color:rgba(0,0,0,15);
 }
 
+article{
+background-color:red;
+width:600px;
+border-style: solid ;
+border-color:green;
+}
+@media (min-width:501px){
+  .col-lg-1,.col-lg-2,.col-lg-3,.col-lg-4,.col-lg-5,.col-lg-6,.col-lg-7,.col-lg-8,.col-lg-9,.col-lg-10,.col-lg-11,.col-lg-12{
+    float:left;
+    border:1px solid green;
+    text-align:center;
+  }
+  .col-lg-1{
+    width:8.33%;
+  }
+  .col-lg-2{
+    width:16.66%;
+  }
+  .col-lg-3{
+    width:25%;
+  }
+  .col-lg-4{
+    width:33%;
+  }
+  .col-lg-5{
+    width:41.66%;
+  }
+  .col-lg-6{
+    width:50%;
+  }
+  .col-lg-7{
+    width:58.33%;
+
+  }
+  .col-lg-8{
+    width:66.66%;
+  }
+  .col-lg-9{
+    width:74.99%;
+  }
+  .col-lg-10{
+    width:83.33%;
+  }
+  .col-lg-11{
+    width:91.66%;
+  }
+.col-lg-12{
+    width:100%;
+  }
+ }
+ 
+ @media (min-width:10px)and(max-width:500px){
+  .col-md-1,.col-md-2,.col-md-3,.col-md-4,.col-md-5,.col-md-6,.col-md-7,.col-md-8,.col-md-9,.col-md-10,.col-md-11,.col-md-12{
+    float:left;
+    border:1px black;
+  }
+  .col-md-1{
+    width:8.33%;
+  }
+  .col-md-2{
+    width:16.66%;
+  }
+  .col-md-3{
+    width:25%;
+  }
+  .col-md-4{
+    width:33%;
+  }
+  .col-md-5{
+    width:41.66%;
+  }
+  .col-md-6{
+    width:50%;
+  }
+  .col-md-7{
+    width:58.33%;
+  }
+  .col-md-8{
+    width:66.66%;
+  }
+  .col-md-9{
+    width:74.99%;
+  }
+  .col-md-10{
+    width:83.33%;
+  }
+  .col-md-11{
+    width:91.66%;
+  }
+
+.col-md-12{
+    width:100%;
+  } 
+}
+
 </style>
+
+
+
 </head>
 <body>
 <h1>LET'S START MAKING WEBSITES ! Are you exited ? </h1> 
@@ -72,6 +182,13 @@ list-style:none;
  	    <li><a href="https://www.facebook.com/pagalpanti.ft.engineers/" target="=_blank" class="socialmedia">VISIT OUR FACEBOOK PAGE </a></li>
  	</ul>
  </div>	
+
+ <section class="row">
+ 	<article class="col-lg-6 col-md-12">HEY THERE I AM ARTICLE 1</article>
+ 	<article class="col-lg-6 col-md-12">HEY THERE I AM ARTICLE 2</article>
+ 	<article class="col-lg-6 col-md-12">HEY THERE I AM ARTICLE 3</article>
+ 	<article class="col-lg-6 col-md-12">HEY THERE I AM ARTICLE 4</article>
+ </section>
  	    
 </body>
 </html> 
