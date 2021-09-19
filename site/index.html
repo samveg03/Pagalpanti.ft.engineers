@@ -176,7 +176,10 @@ text-align:center;
 	border: 100px;
 	padding:100px;
 	margin:100px,black;
-
+    position:relative;
+    display:flex;
+    flex-direction: column;
+    flex-wrap:wrap;
 }
 
 h1 {
@@ -186,8 +189,16 @@ h1 {
   }
 
 .button {
-	background-color: red;
-	color: white;
+  display:block;
+  padding:1rem 2rem;
+  background:#d0333a;
+  margin-bottom:.5rem;
+  text-align:center;
+  border: none;
+  border-radius:6px;
+  color:#fff;
+  cursor:pointer;
+  color:red;
 }
 
 h2 {
