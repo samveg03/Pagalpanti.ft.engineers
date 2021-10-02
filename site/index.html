@@ -306,11 +306,18 @@ h2 {
 <div class="container1">
  <h1>Energy dashboard</h1>
  
-  <div class= " miniContainer1"><button onclick="myFunction()" class="button"> TODAY </button>
+  <div class= " miniContainer1">
+  <button onclick="myFunction()" class="button"> TODAY </button>
   <button onclick="myFunction()" class="button"> MONTHLY </button>
   <button onclick="myFunction()" class="button"> YEARLY </button>
-  <div id="date"></div>
-</div></div>
+  </div>
+  <div id="date">
+  <?php 
+  $d = date("dS F Y");
+  echo ="$d";
+  
+</div>
+</div>
 
 <div class = "container2">
 	<h2>Cost predicted</h2>
@@ -359,14 +366,6 @@ h2 {
 	 //friends.forEach(function f(element){
 	 	//console.log( element + "You are the best" +  "web devloper");
 	// });
-	let now = new date();
-	setInterval(updateTime,1000);
-
-	function updateTime (){
-		date.innerHtml = now();
-	};
-
-	console.log(now);
 </script>
 
 </html> 
